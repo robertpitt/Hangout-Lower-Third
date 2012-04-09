@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+	<!--
+	 * Lower Third for Google+ Hangouts
+	 * Copyright 2012 Moritz Tolxdorff
+	 * Version: 1.0.0
+	 * Release date: 06.04.2012
+	 * Developers:
+	 ** Moritz Tolxdorff
+	 ** Robert Pitt
+	 *
+	 * Thanks:
+	 ** Robert Pitt
+	-->
+
+	
+	<ModulePrefs title="LowerThird">
+		<Require feature="rpc"/>
+		<Require feature="views"/>
+	</ModulePrefs>
+	<Content type="html">
+		<![CDATA[
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+			<script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.0"></script> 
+			<link rel="stylesheet" type="text/css" href="//hangoutlowerthird.appspot.com/static/style.css" />
+			<!--[if lt IE 9]>
+				<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			<div id="container">
+			</div>
+			<script src="//hangoutlowerthird.appspot.com/static/lowerthird.js"></script>
+		]]>
+	</Content>
+</Module>
